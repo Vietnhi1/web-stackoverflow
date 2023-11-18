@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CC BY-SA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link ref="stylesheet" href="END.CSS">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height: 60px;
+            background-color: #F7F7F7;
+            border-bottom: 1px solid gray;
+        }
+        .thanhchon{
+            display:flex;
+            font-size: 20px;
+            z-index: 1000px;
+        }
+        .option{
+            margin-left: 80px;
+           margin-top: 20px;
+        }
+        
+        .Log_Sign{
+            margin-left: 200px;
+           position: relative;
+           top:10px;
+        }
+        .login:hover{
+            background-color: rgb(190, 232, 245);
+        }
+        .signup{
+            background-color: rgb(2, 2, 95);
+        }
+        .mot:hover, .hai:hover, .ba:hover{
+            background-color: rgb(197, 191, 191);
+            border-radius: 8px;
+        }
+
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh; /* 100% chiều cao của viewport */
+      overflow-y: auto; /* Tạo thanh cuộn khi nội dung vượt quá chiều cao */
+    }
+
+    .header {
+      background-color: #4267B2;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .main-content {
+       height: 780px;
+      display: flex;
+      flex: 1;
+      padding: 20px;
+      margin-top: -20px;
+      position: relative;
+      right:30px;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: #FFFFFF;
+      margin-left: 0px;
+      padding: 10px;
+      padding-top: 50px;
+      padding-left: 50px;
+      position: sticky;
+      top: 0;
+    }
+
+    .feed {
+      flex: 1;
+      background-color: #ffffff;
+      padding: 10px;
+      flex-direction: column;  
+      font-size: 18px;
+      display: flex;
+    }
+    .dau{
+        display: flex;
+        color: #5c5e61;
+    }
+    
+    .box{
+        width: 240px;
+        height: 750px;
+        background-color: #FFFFFF;
+        position: relative;
+        top:-420px;
+        left:790px;
+        padding-left: 30px;
+        padding-top: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        color: gray;
+        border: 1px solid rgb(204, 201, 201);
+    }
+    .Footer{
+        z-index: 1200px;
+        display: flex;
+        justify-content: space-around;
+        color: #686c73;
+        background-color: black;
+        padding-top: 30px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="thanhchon">
+            <div>
+                <img src="BTLimg/logoStack.png" style="width: 170px; height: 50px; margin-left: 40px;">
+            </div>
+            <div class="option" style="color:gray ;display:flex;">
+                <p class="mot">About</p>
+                <p class="hai" style="margin-left: 20px;">Products</p>
+                <p  class="ba" style="margin-left: 20px;">For Teams</p>
+            </div>
+            
+            <form style="width: 300px;" height="30px">    
+                <div class="thanhchon_search" style="display: flex; margin-top: 15px;">
+                    <i class="fa-solid fa-magnifying-glass fa-beat" style="margin-top: 6px; position:relative; left:175px; border-radius: 5px;"></i>
+                    <input type="text" id="keywor" name ="key"  style="height:25px; width: 200px; padding-left: 25px; margin-left: 150px;" placeholder="Search..."   >  
+                </div>
+            </form>    
+
+            <nav class="Log_Sign" style="display:flex;">
+                <div class="login" style="width: 80px; height: 40px; border-radius: 5px; padding-left: 10px; border: 1px solid blue; color:blue">Log in</div>
+                <div class="signup" style="width: 80px; height: 40px; background-color: rgb(24, 24, 255); color:white; border-radius: 5px; padding-left: 10px; margin-left: 50px;">Sign up</div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div  class="container">
+            <div class="main-content">
+                <div class="sidebar">
+                    <div style="display: flex;">
+                        <i class="fa-solid fa-house" style="color: #000000;"></i>
+                        <p>Home</p>
+                    </div>
+                    <div style="display: flex; margin-top: 15px;">
+                        <i class="fa-solid fa-file-circle-question" style="color: #000000;"></i>
+                        <p>Questions</p>
+                    </div>
+                    <div style="display: flex; margin-top: 15px;">
+                        <i class="fa-solid fa-tag" style="color: #000000;"></i>
+                        <p>Tags</p>
+                    </div>
+                    <div style="display: flex; margin-top: 35px;">
+                        <i class="fa-solid fa-user-group" style="color: #000000;"></i>
+                        <p>Users</p>
+                    </div>
+                    <div style="display: flex; margin-top: 15px;">
+                        <i class="fa-solid fa-beer-mug-empty" style="color: #000000;"></i>
+                        <p>Companies</p>
+                    </div>
+                    <div style="display: flex; margin-top: 35px;">
+                        <p>COLLECTTIVES</p>
+                        <i class="fa-solid fa-plus" style="color: #494a4b;"></i>
+                    </div>
+                    <div style="display: flex; margin-top: 15px;">
+                        <i class="fa-solid fa-circle-xmark" style="color: #e28503;"></i>
+                        <p>Explore Collectives</p>
+                    </div>
+                    <div style="display: flex; margin-top: 35px;">
+                        <p>LABS</p>
+                        <i class="fa-solid fa-circle-info" style="color: #5c5e61;"></i>
+                    </div>
+                    <div style="display: flex; margin-top: 15px;">
+                        <i class="fa-solid fa-message" style="color: #686c73;"></i>
+                        <p>Discussion</p>
+                    </div>
+                    <div style="display: flex; margin-top: 15px;">
+                        TEAMS
+                    </div>
+                    <div style=" margin-top: 15px;">
+                        <img src="BTLimg/Khung-free.png">
+                    </div>
+                </div>
+                
+                <div class="feed" style="flex-direction: colum;">
+                  
+                    <div class="content">
+                        <div >
+                            <div  class="dau">
+                                <p class="mot">Stack Overflow</p>
+                                <p class="mot" style="margin-left: 30px;">Help center</p>
+                                <p class="mot" style="margin-left: 30px;">My Account</p>
+                            </div>
+                            <h2>What is the license for the content I post?</h2>
+                            <span style="color: #939599;">________________________________________________________________________________</span>
+                        </div>
+                        <p style="margin-top: 30px;">As noted in the Stack Exchange <span style="color:rgb(0, 89, 255)"><u>Terms of Service</u></span> and in the footer of every page, all publicly accessible user <br>contributions are licensed under  <span style="color:rgb(0, 89, 255)"><u>Creative Commons Attribution-ShareAlike</u></span>license as follows:</p>
+                        <ul style="margin-top: 40px; margin-left: 40px;">
+                            <li>Content contributed before 2011-04-08 (UTC) is distributed under the terms of <span style="color:rgb(0, 89, 255);"><u>CC BY-SA 2.5</u></span>.</li>
+                            <li>Content contributed from 2011-04-08 up to but not including 2018-05-02 (UTC) is distributed under the <br>terms of <span style="color:rgb(0, 89, 255);"><u>CC BY-SA 3.0</u></span>.</li>
+                            <li>Content contributed on or after 2018-05-02 (UTC) is distributed under the terms of CC <span style="color:rgb(0, 89, 255);"><u>CC BY-SA 4.0</u></span>.</li>
+                        </ul>
+                        <p style="margin-top: 30px;">The license applicable for each Question and Answer revision is available on the <span style="color:rgb(0, 89, 255);"><u>post timeline</u></span>. See <span style="color:rgb(0, 89, 255);"><u>this post </u></span> <br>for more information.</p>
+                        <p style="margin-top: 30px;">Please read the terms of service and the full legal text of the license carefully for more details on how your <br>content can be used and for how you can use publicly accessible content contributed to the site by other <br>users.</p>
+                    </div>
+                  
+                    <div class="box">
+                        <p>Asking</p>
+                        <p style="margin-top: 8px;">Privileges</p>
+                        <p style="margin-top: 8px;">Badges</p>
+                        <p style="margin-top: 8px;"> Our model</p>
+                        <p style="margin-top: 8px;">Reputation & Moderation</p>
+                        <p style="margin-top: 8px;"> Answering</p>
+                        <h3 style="color: black; margin-top: 8px;">My Account</h3>
+                        <div style="margin-left: 10px; margin-top: 8px;">
+                            <p style="margin-top: 8px;">I accidentally created two accounts; how do I merge them?</p>
+                            <p style="margin-top: 8px;">How do I add or remove login credentials from my account?</p>
+                            <p style="margin-top: 8px;">I lost my password; how do I reset it?</p>
+                            <p style="margin-top: 8px;">How do I delete my account?</p>
+                            <p style="margin-top: 8px;">How do I use Saves?</p>
+                            <p style="margin-top: 8px;">When does Stack Exchange ask for my cookie consent?</p>
+                            <p style="margin-top: 8px;">Why should I create an account?</p>
+                            <h4 style="color: black; margin-top: 8px;">What is the license for the content I post?</h4>
+                            <div>
+                                <p style="margin-top: 8px;">How do I create an account?</p>
+                                <p style="margin-top: 8px;">Why has my post been blocked due to "spam and abuse from my network"?</p>
+                                <p style="margin-top: 8px;"style="margin-top: 8px;">How do I report a possible security vulnerability?</p>
+                                <p style="margin-top: 8px;">Why have I been limited to one question per week?</p>
+                            </div>
+                        </div>
+                        
+                        <p style="margin-top: 8px;">Review Queues</p>
+                        <p style="margin-top: 8px;">Collectives on Stack Overflow</p>
+                        <p style="margin-top: 8px;"> Staging Ground</p>
+                    </div>
+                  
+                </div>
+
+            </div>            
+        
+ 
+        </div>
+   
+    </main>         
+    
+
+    <footer >
+        <div class="Footer">
+            <div>
+                <svg aria-hidden="true" class="native svg-icon iconLogoGlyphMd" width="32" height="37" viewBox="0 0 32 37"><path d="M26 33v-9h4v13H0V24h4v9h22Z" fill="#BCBBBB"></path><path d="m21.5 0-2.7 2 9.9 13.3 2.7-2L21.5 0ZM26 18.4 13.3 7.8l2.1-2.5 12.7 10.6-2.1 2.5ZM9.1 15.2l15 7 1.4-3-15-7-1.4 3Zm14 10.79.68-2.95-16.1-3.35L7 23l16.1 2.99ZM23 30H7v-3h16v3Z" fill="#F48024"></path></svg>
+            </div>
+            <ul class="Questions">
+                <p><b>STACK OVERFLOW</b></p>
+                <div style="margin-top: 15px;">
+                <li>Questions</li>
+                <li>Help</li>
+                </div>
+            </ul>
+            <ul class="PRODUCTS">
+                <li><b>PRODUCTS</b></li>
+                <div style="margin-top: 15px;">
+                <li>Teams</li>
+                <li>Advertising</li>
+                <li>Collectives</li>
+                <li>Talent</li>
+                </div>
+            </ul>
+            <ul class="COMPANY">
+                <li><b>COMPANY</b></li>
+                <div style="margin-top: 15px;">
+                <li>About</li>
+                <li>Press</li>
+                <li>Work Here</li>
+                <li>Legal</li>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Contact Us</li>
+                <li>Cookie Settings</li>
+                <li>Cookie Policy</li>
+                </div>
+            </ul>
+            <ul class="Technology">
+                <li><b>STACK EXCHANGE NETWORK</b></li>
+                <div style="margin-top: 15px;">
+                <li>Technology</li>
+                <li>Culture & recreation</li>
+                <li>Life & arts</li>
+                <li>Science</li>
+                <li>Professional</li>
+                <li>Business</li>
+                <li>API</li>
+                <li>Data</li>
+                </div>
+            </ul>
+            <div class="hai-">
+                <dul class="hang1" style="display: flex; justify-content: space-around;">
+                    <li>Blog</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>LinkedIn</li>
+                    <li>Instagram</li>
+                </dul>
+                <div class="hang2" style="margin-top: 130px;">
+                    <p>Site design / logo © 2023 Stack Exchange Inc; user contributions <br>licensed under <a href="END.html" style="color: rgb(80, 78, 78);"><u>CC BY-SA.</u></a> rev 2023.11.6.456</p>
+                    </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="ScriptBTL.js"></script>
+</body>
+</html>

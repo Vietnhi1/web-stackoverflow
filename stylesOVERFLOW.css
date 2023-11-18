@@ -1,0 +1,1050 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.thanhchon{
+    position:fixed;
+    top:0px;
+    left: 0;
+    z-index: 1000;
+    min-width: auto;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    display:inline-block;
+    background-color: #e4dddd;
+    cursor: pointer;
+  
+}
+
+.thanhchon_logo{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+    border-bottom: solid 1px gray;
+}
+.thanhchon_logo .logo .fa-solid{
+    width:50px;
+    height:50px;
+    position:relative;
+    top: 25px;
+    left:8px;
+}
+.thanhchon_logo .logo .logo_overflow{
+    display:flex;
+    margin-top: -50px;
+    position: relative;
+   
+   
+}
+
+.option{
+    position: relative;
+    right: 80px;
+    top:-20px;
+    display: flex;
+    border-radius: 15px;
+    width: 100%;
+    height: 20px;
+
+   
+}
+.option .luachon{
+    color: gray;
+    display: flex;
+    margin-right: 20px;
+    border-radius:10px ;
+}
+.luachon:hover{
+    background: gainsboro;
+}
+.thanhchon_search{
+    position: relative;
+    right: 140px;
+    top: 10px;
+}
+
+.thanhchon_search #keywor{
+    position: relative;
+    top:-18px;
+    width: 665px;
+    height: 27px;
+    left:50px;
+
+}
+.thanhchon_search .fa-solid{
+    font-size: 20px;
+    color: gray;
+    position: relative;
+    z-index: 50;
+    top: 6px;
+    left: 65px;
+    font-size: 16px;
+    
+}
+ #keywor{
+    color: gray;
+    border-radius: 7px;
+    padding-left: 40px;
+}
+.content{
+   
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: -75px;
+    top:-10px;
+}
+.content li{
+    size: 15px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 6px;
+    margin-right: 20px;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    left: 50px;
+}
+.Log_Sign{
+    position: relative;
+    right:120px; 
+
+}
+.logIn:hover{
+    background: rgb(160, 160, 242);
+}
+.content .SignUp {
+    color: aliceblue;
+    background: rgb(61, 61, 207);
+    position: relative;
+    left:-5px;
+}
+.SignUp:hover{
+    background: rgb(19, 19, 159);
+}
+
+.Main{
+    margin-top: 20px;
+    position:relative;
+    top: 60px;
+    height:8000px;
+    background-color: #F9FAFA;
+    display:flex;
+   
+}
+
+.Main .Div{
+    border-radius: 0 0 10px 10px;
+    background-color: #000066;
+    width: 60px;
+    height:60px;
+    position:relative;
+    bottom:60px;
+    display:inline-block;
+}
+.Main .Div1{
+    border-radius: 0 0 10px 10px;
+    background-color:#0099FF;
+    width: 60px;
+    height:60px;
+    position:relative;
+    left: 1150px;
+}
+.Main .div1{
+    border-radius: 10px;
+    background-color: black;
+    width:1255px;
+    position:relative;
+    top: 50px;
+    left:50px;
+   
+}
+.Main .div2{
+    
+    border-radius: 10px;
+    background-color: black;
+    height: 900px;
+    position:relative;
+    top: 50px;
+}
+.Main .div3{
+    display:flex;
+    text-align: center;
+}
+.boxMess{
+    position:relative;
+    left:250px;
+    display:flex;
+    
+}
+.boxMess .sender {   
+    border-radius: 10px;
+    background-color: #fadaba; /* Màu nền tin nhắn của người gửi */
+    width:450px;
+    height:250px;
+    position:relative;
+    right:10px;
+    font-size: 20px;
+
+    }
+.boxMess .receiver {
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #b0d4f8; /* Màu nền tin nhắn của người nhận */
+    width:450px;
+    height:250px;
+    position:relative;
+    right:325px;
+}
+#mot{
+    position: relative;
+    top:70px;
+}
+#hai{
+    position: relative;
+    top:70px;
+}
+#bon{
+    position: relative;
+    top:70px;
+}
+#nam{
+    position: relative;
+    top:70px;
+}
+.sender .fa-brands{
+    position:relative;
+    top:40px;
+    color:orange;
+}
+.receiver .fa-solid{
+    position:relative;
+    top:40px;
+}
+.Signup{
+    border-radius: 20%;
+    height:100px;
+    position:relative;
+    top:40px;
+
+}
+.DiscoverTeams{
+    position:relative;
+    top:40px;
+}
+.Searchcontent{
+    position:relative;
+    top:40px;
+}
+.my-box {
+    /* Các thuộc tính CSS để mô tả kiểu dáng của phần tử div */
+    
+    width: 35px;
+    height: 35px;
+    background-color: rgba(255, 166, 0, 0.815);
+    line-height: 100px;
+    border-radius:5px 5px 0 5px;
+}
+.openTap{
+    font-size:xx-large;
+    color:white;
+    width: 500px;
+    height:500px;
+    position: relative;
+    right:1000px;
+    top: 300px;
+    white-space: nowrap;
+}
+.small{
+    width: 80px;
+    height:10px;
+    background-color: gray;
+    border-radius:10px ;
+    position:relative;
+    left:620px;
+}
+.infor{
+    color:white;
+    text-align: center;
+    text-align: justify;
+    align-items:center;
+    display:flex;
+    position: relative;
+    left:250px;
+    top:70px;
+    font-size: 18px;
+}
+#p1{
+    position:relative;
+    right:100px;
+}
+#p2{
+    position:relative;
+    right:20 px;
+}
+#p3{
+    position:relative;
+    left:70px;
+}
+#p4{
+    position:relative;
+    left:120px;
+}
+.Border{
+    
+    height:800px;
+    width:1050px;
+    position:relative;
+    left:100px;
+    top:150px;
+    display:flex;
+}
+.Border1{
+    background-color: red;
+    width:500px;
+    height:850px;
+    position:relative;
+    left:11px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top,rgb(245, 142, 74), white);
+}
+.Border2{
+    background-color:yellow;
+    width:500px;
+    height:850px;
+    position:relative;
+    left:38px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top,#0099FF, white);
+}
+#logo_Border1{
+    display:flex;
+    font-size: 30px;
+    position:relative;
+    left:140px;
+    top:50px;
+}
+#logo_Border2{
+    display:flex;
+    font-size: 20px;
+    position:relative;
+    left:140px;
+    top:50px;
+}
+.doc1{
+    position:relative; 
+    top:80px; 
+    left:5px;
+    font-size: 30px;
+    text-align: center;
+}
+.doc2{
+    position:relative; 
+    top:70px; 
+    right:5px;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#com1{
+    padding-top: 100px;
+    padding-left: 25px;
+    padding-right: 20px;
+    font-size: 20px;
+    color:rgb(70, 68, 68);
+    text-align: center;
+}
+#com2{
+    padding-top: 90px;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-size: 20px;
+    color:rgb(70, 68, 68);
+    text-align: center;
+}
+#com3{
+    position:relative;
+    left: 140px;
+    top:15px;
+}
+.For_large_organizations{
+    width:190px;
+    height:30px;
+    background-color: blue;
+    border-radius: 5px;
+    padding-top:5px;
+    padding-left: 20px;
+    
+    position:relative;
+    top:40px;
+    left:60px;
+}
+.For_small_teams{
+    width:140px;
+    height:30px;
+    background-color: blue;
+    border-radius: 5px;
+    padding-top:5px;
+    padding-left: 20px;
+    position:relative;
+    top:5px;
+    left:280px;
+}
+.Thousands_of{
+    position: relative;
+    top: 900px;
+    right:800px;
+    font-size: 20px;
+    white-space: nowrap;
+    color:rgb(70, 68, 68);
+}
+.image{
+    display:grid;
+    grid-template-columns: repeat(4, 80px); /* 4 cột, mỗi cột 100px */
+    gap: 160px;
+    position:relative;
+    top: 60px;
+    right:120px;
+}
+.box1{
+    height:8px;
+    width:30px;
+    background-color:rgb(180, 175, 175);
+    position:relative;
+    top:100px;
+    left:250px;
+    border-radius: 10px;
+    display:flex;
+}
+.box2{
+    height:8px;
+    width:30px;
+    background-color:rgb(180, 175, 175);
+    position:relative;
+    top:92px;
+    left:290px;
+    border-radius: 10px;
+    display:flex;
+}
+.box3{
+    height:8px;
+    width:30px;
+    background-color:rgb(26, 20, 20);
+    position:relative;
+    top:84px;
+    left:330px;
+    border-radius: 10px;
+    display:flex;
+}
+.box4{
+    height:8px;
+    width:30px;
+    background-color:rgb(180, 175, 175);
+    position:relative;
+    top:76px;
+    left:370px;
+    border-radius: 10px;
+}
+.Border_img{
+    float:left;
+    position: relative;
+}
+
+.Border_img1{
+    position:relative;
+    top:300px;
+    right:200px;
+    
+}
+.Border_img2{
+    position:relative;
+    top:-5px;
+    left:450px;
+    
+}
+.Border_img3{
+    position:absolute;
+    top:-300px;
+    left:350px;
+
+}
+.box_black{
+    border-radius: 8px;
+    background-color: black;
+    width:1250px;
+    height:3500px;
+    position:relative;
+    right:300px;
+    bottom:70px;
+}
+.logo_Overflow{
+    display: flex;
+    position: relative;
+    left:130px;
+    top:70px;
+    font-size: 30px;
+}
+#Capture_your{
+    text-align: center;
+    color:white;
+    /* margin-right: 200px;
+    margin-top: 100px; */
+    /* left: -230px; */
+    white-space: pre-line;  
+    margin-top: 100px;
+    /*margin-left: -400px;*/
+    position: relative;
+    right:420px;
+    
+}
+
+.Take_a_tour{
+    width:190px;
+    height:40px;
+    background-color:#0065a8;
+    position: relative;
+    top:100px;
+    left:150px;
+    /* padding-top: 10px;
+    padding-left: 23px; */
+    padding-top: 8px;   
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-top: -100px;
+}
+.information{
+    position: relative;
+    /* right:100px; */
+    top:170px;
+    left: -200px;
+    display: flex;
+    padding-bottom: 100px;
+    /*border-bottom: 1px solid #3b3a3a;*/
+}
+.information-item{
+    text-align: center;
+    
+}
+.information-item + .information-item{
+    margin-left: 30px;
+}
+.information-item h3{
+    margin: 10px 0 15px;
+}
+.information-item p{
+    line-height: 1.3;
+    font-size: 18px;
+}
+.Ensure_your{
+    /*border-top: 1px solid #3b3a3a;*/
+    color:white;
+    margin-top:220px;
+    margin-right: 200px;
+}
+.Software_engineers{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right:320px;
+    text-align: center;
+   
+}
+.DevOps_engineers{
+    margin-top: 50px;
+    padding-top: 70px;
+}
+.Data_scientists{
+    margin-top: 50px;
+    padding-top: 70px;
+}
+.Software-engineers{
+    margin-top: 50px;
+    background-color: rgb(87, 84, 84);
+    border-radius: 10px;
+    height:350px;
+    padding-top: 50px;
+}
+.Support_teams{
+    margin-top: 50px;
+    padding-top: 70px;
+}
+.Engineering_leaders{
+    margin-top: 50px;  
+    padding-top: 70px;   
+}
+.toggle-container {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.toggle-input {
+    display: none; /* Ẩn input checkbox */
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: .4s;
+}
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    transition: .4s;
+}
+/* Khi input checkbox được kiểm tra (checked), thay đổi màu nền của toggle slider */
+.toggle-input:checked + .toggle-slider {
+    background-color: #076b07;
+}
+/* Khi input checkbox được kiểm tra (checked), di chuyển toggle slider về phải */
+.toggle-input:checked + .toggle-slider:before {
+    transform: translateX(26px);
+}
+.toggle-container{
+    margin-left: 5px;
+    margin-top: -5px;
+    border: 4px solid rgb(87, 84, 84);
+    border-radius: 20px;
+}
+.switch{
+    display: flex;
+    margin-left: -270px;
+    margin-top: 100px;
+    font-size: 17px;
+}
+.Nhi{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -200px;
+    margin-top: 20px;
+    margin-right: 380px;
+}
+.Nhi1{
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+.Nhi2{
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+.Nhi3{
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: -50px;
+    position: relative;
+}
+.Nhi4{
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 140px;
+    position: relative;
+}
+.Free{
+    background-color: orangered;
+    width: 60px;
+    height:30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-bottom: 1px solid orangered;
+}
+.Basic{
+    background-color: rgb(182, 180, 180);
+    
+    width: 60px;
+    height:30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.Business{
+    background-color: rgb(53, 52, 52);
+    width: 100px;
+    height:30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.bullhorn{
+    display: flex;
+    margin-left: 20px;
+}
+.security{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.box{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.nhi1{
+    display: flex;
+    margin-left: 20px;
+}
+.nhi2{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.nhi3{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.nhi4{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.pluss1{
+    display: flex;
+    margin-left: 20px;
+}
+.pluss2{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.pluss3, .pluss4, .pluss5, .pluss6, .pluss7{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.bot{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    text-align: center;
+}
+.create{
+    display: block;
+    background-color: #DB6A0C;
+    border-radius: 5px;
+    width: 270px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 17px;
+}
+
+.started{
+    background-color: #C8CCD0;
+    
+}
+.create-nhi3{
+    background-color: #2f3131;
+}
+
+.Free2{
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    background-color: #2B2D6E;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+.Nhi4 .create{
+    background-color: #000066;
+}
+.Four-box{
+    display: flex;
+    margin-top: 80px;
+   
+}
+.A-Forrester{
+    position: relative;
+    right:330px;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 5px;
+    padding:20px 20px;  
+}
+.The-world{
+    position: relative;
+    right:313px;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 5px;
+    padding:20px 20px; 
+}
+.Subject-matter{
+    position: relative;
+    left:-295px;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 5px;
+    padding:20px 20px; 
+}
+.You-can{
+    position: relative;
+     left:-277px;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 5px;
+    padding:20px 20px; 
+}
+.Calculate{
+    width:200px;
+    height:40px;
+    
+    margin-left: 28px;
+    margin-top: 20px ;
+    border-radius: 5px;
+    border: 2px solid #07078d;
+    padding:5px 15px;
+}
+.three-box{
+    display: flex;
+    margin-top: 120px;
+    margin-left: -360px;
+    
+}
+.Microsoft-teams{
+    
+   padding-left: -270px;
+}
+.hinh-anh{
+    display: flex;
+    
+}
+.Integrates{
+    margin-top: 40px;
+    font-size: 20px;;
+}
+#slack, #Mcr, #github, #jara, #okta{
+    width:60px;
+    height:60px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 35px;
+}
+.hinh-anh{
+    margin-left: 20px;
+    justify-content:space-around;
+    
+}
+.key-lock{
+    display: flex;
+    text-align: center;
+    margin-top: 120px;
+   
+    margin-left: -270px;
+    justify-content: space-around;
+}
+#Key{
+    width: 250px;
+    height: 180px;
+    border-radius: 5px;
+    background-color: #D6D9DC;
+    padding-top: 25px;
+}
+#Lock{
+    width: 250px;
+    height: 180px;
+    border-radius: 5px;
+    background-color: #D6D9DC;
+    padding-top: 25px;
+}
+#People{
+    width: 250px;
+    height: 180px;
+    border-radius: 5px;
+    background-color: #D6D9DC;
+    margin-right: 100px;
+    padding-top: 25px;
+}
+#Phone{
+    width: 250px;
+    height: 180px;
+    border-radius: 5px;
+    background-color: #D6D9DC;
+    margin-right: 250px;
+    position: relative;
+    right: 100px;
+    padding-top: 25px;
+}
+.Four-Mess{
+  
+    margin-top: 100px;
+    margin-left: -245px;
+}
+.thre-Mess{
+    display:flex;
+    color: black;
+}
+#Mes-0ne{
+
+}
+#Mes-two{
+    margin-left: 50px;
+}
+#Mes-three{
+    margin-left: 50px;
+}
+.one-Mess{
+    margin-left: 350px;
+    color: black;
+    margin-top: 50px;   
+}
+.near-end{
+    display: flex;
+    margin-left: -400px;
+    margin-top: 150px;
+}
+.near-end1{
+    margin-left: -30px;
+}
+.Additional-products{
+    color:black;
+    text-align: center;
+}
+.talent{
+    width:350px;
+    height:100px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 190px;
+    padding-top: 10px;
+    box-shadow: 1px 1px 2px 1px rgb(189, 188, 188);
+}
+#advertising{
+    width:350px;
+    height:150px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    padding-top: 20px;
+    box-shadow: 1px 1px 2px 1px rgb(189, 188, 188);
+}
+#collectives{
+    width:350px;
+    height:150px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-left: 10px;
+    padding-top: 20px;
+    box-shadow: 1px 1px 2px 1px rgb(189, 188, 188);
+}
+.box-box1{
+    display: flex;
+    margin-top: 50px;
+    
+}
+.about-a-company{
+    margin-top: 50px;
+    margin-left: 280px;
+   
+}
+.box-company{
+    width:200px;
+    height: 40px;
+    background-color: #DB6A0C;
+    border-radius: 5px;
+    padding:5px 30px;
+
+}
+
+.end-main{
+    width: 1250px;
+    height: 600px;
+    margin-top: 150px;
+    margin-left: -350px;
+    background-color:#0C3B6A;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 100px;
+}
+.animation1{
+    margin-left: 20px;
+}
+.animation2{
+    margin-left: 30px;
+}
+.Stack-Exchange{
+    margin-left: 50px;
+    text-align: center;
+}
+.box-CreateTeam{
+    width:200px;
+    height: 40px;
+    background-color: #D6E8FA;
+    border-radius: 5px;
+    border: 1px solid blue;
+    padding:5px 30px;
+    margin-right: 100px;
+}
+.ket-thuc{
+    display: flex;
+    position: relative;
+    right: 140px;
+    top:70px;
+}
+.create-a-team{
+    width:200px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 60, 255);
+    text-align: center;
+    padding-top:7px;
+    
+}
+.Footer{
+    margin-top: 600px;
+    display: flex;
+    justify-content: space-around;
+    color:rgb(88, 86, 86);
+    background-color: black;
+    padding-top: 30px;
+}
