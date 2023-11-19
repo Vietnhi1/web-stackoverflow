@@ -16,16 +16,15 @@ a{
 
 .thanhchon{
     position:fixed;
-    top:0px;
-    left: 0;
+    top:0;
     z-index: 1000;
     min-width: auto;
-    width: 80%;
+    width: 100%;
     height: 80px;
     display: flex;
     align-items: center;
     display:inline-block;
-    background-color: #e4dddd;
+    background-color: #F7F7F7;
     cursor: pointer;
   
 }
@@ -47,16 +46,16 @@ a{
 }
 .thanhchon_logo .logo .logo_overflow{
     display:flex;
-    margin-top: -50px;
+    margin-top: -60px;
     position: relative;
-   
+    left: 100px;
    
 }
 
 .option{
     position: relative;
-    right: 80px;
-    top:-20px;
+    left: 80px;
+    top:-10px;
     display: flex;
     border-radius: 15px;
     width: 100%;
@@ -75,7 +74,7 @@ a{
 }
 .thanhchon_search{
     position: relative;
-    right: 140px;
+    right: 80px;
     top: 10px;
 }
 
@@ -103,13 +102,12 @@ a{
     padding-left: 40px;
 }
 .content{
-   
     text-decoration: none;
     list-style: none;
     display: flex;
     position: relative;
-    left: -75px;
-    top:-10px;
+    top:-0px;
+    left: 90px;
 }
 .content li{
     size: 15px;
@@ -128,6 +126,9 @@ a{
     position: relative;
     right:120px; 
 
+}
+.SignUp{
+    margin-left: 50px;
 }
 .logIn:hover{
     background: rgb(160, 160, 242);
